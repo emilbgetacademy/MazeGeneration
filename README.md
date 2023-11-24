@@ -1,5 +1,5 @@
 ## Docker
-Navigate to the source directory (the one where the Dockerfile recides)
+Navigate to the source directory "MazeGeneration" (Dockerfile recides there too)
 
 Build Image
 ```bash
