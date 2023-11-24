@@ -7,8 +7,8 @@ var a = new Square(0, 0);
 var b = new Square(0, 1);
 var c = new Square(1, 0);
 
-a.Open(2);
-b.Open(-1);
+a.WallRight = true;
+b.WallLeft = true;
 
 a.Show();
 b.Show();
