@@ -1,0 +1,17 @@
+## Docker
+Navigate to the source directory (the one where the Dockerfile recides)
+
+Build Image
+```bash
+docker build -t mazegeneration .
+```
+
+Run Container
+```bash
+clear && docker run -t --rm --name MazeGeneration mazegeneration && echo
+```
+
+Remove Image
+```bash
+docker rmi mazegeneration
+```
